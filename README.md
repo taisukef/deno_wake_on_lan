@@ -10,7 +10,11 @@ import { wakeOnLAN } from "https://taisukef.github.io/deno_wake_on_lan/wakeOnLAN
 await wakeOnLAN('20:DE:20:DE:20:DE');
 ````
 
-See [windows notes](#windows-notes) and the [wake utility](#the-wake-utility).
+```bash
+$ deno run -A --unstable wake.js
+```
+
+See [windows notes](#windows-notes)
 
 ## Reference
 
